@@ -50,12 +50,12 @@ while opcion != 0:
             case 3:
                 resultado1 = obj.es_vacia(cadena1)
                 resultado2 = obj.es_vacia(cadena2)
-                print(f"¿'{cadena1}' está vacía?: {resultado1}")
-                print(f"¿'{cadena2}' está vacía?: {resultado2}")
+                print(f"'{cadena1}' está vacía?: {resultado1}")
+                print(f"'{cadena2}' está vacía?: {resultado2}")
 
             case 4:
                 resultado = obj.son_iguales(cadena1, cadena2)
-                print(f"¿'{cadena1}' y '{cadena2}' son iguales?: {resultado}")
+                print(f"'{cadena1}' y '{cadena2}' son iguales?: {resultado}")
 
             case 0:
                 print("Adios!!!")
